@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 .login{
     display: flex;
     flex-direction: row;
@@ -11,7 +16,7 @@
     background-color: #B6D7E4;
 
 
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin-left: auto;
     margin-right: auto;
 
@@ -42,4 +47,58 @@
 
     max-width: 600px;
 
+}
+
+.back-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #000085;
+    
+}
+
+.s-pink{
+    background-color: #E087E8;
+    
+    width: 500px;
+    height: 300px;
+
+    margin: 50px auto;
+}
+
+.back-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* max-width: 1200px; */
+    
+    margin: 40px auto;
+    
+    
+    /* margin-left: auto;
+    margin-right: auto;
+    padding: 50px auto; */
+}
+
+.azure-square{
+    height: 480px;
+    width: 700px;
+
+    background-color: #458EF7;
+    border: black 1px dashed;
+
+
+}
+
+.s-pink-1{
+    background-color: #F5C3CB;
+
+    height: 480px;
+    width: 496px;
+    border: black 1px dashed;
+
+
+    
 }
