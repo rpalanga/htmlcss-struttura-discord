@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+.login{
+    display: flex;
+    flex-direction: row;
+
+    background-color: #B6D7E4;
+
+}
+
+.giallo{
+    display: flex;
+    justify-content: center;
+    
+
+    max-width: 1200px;
+
+    
+    background-color: #D2A741;
+}
+
+.Login-header{
+    flex-grow: ;
+}
