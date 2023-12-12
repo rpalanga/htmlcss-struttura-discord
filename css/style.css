@@ -82,7 +82,7 @@
     padding: 50px auto; */
 }
 
-.azure-square{
+.azure-square-1{
     height: 480px;
     width: 700px;
 
@@ -102,3 +102,43 @@
 
     
 }
+
+.back-grey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+
+    /* max-width: 1200px; */
+
+    background-color: #D3D3D3;
+    
+    /* margin: 40px auto; */
+    /* padding: 40px auto; */
+    
+}
+
+.s-pink-2{
+    background-color: #F5C3CB;
+
+    height: 480px;
+    width: 700px;
+    border: black 1px dashed;
+    
+    /* margin: 40px auto; */
+
+
+}
+
+.azure-square-2{
+    height: 480px;
+    width: 496px;
+
+    background-color: #458EF7;
+    border: black 1px dashed;
+    
+    /* margin: 40px auto; */
+
+}
+/* il box grey non si colora sui margini top e bottom */
+
